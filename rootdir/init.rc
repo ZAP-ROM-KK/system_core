@@ -273,7 +273,7 @@ on post-fs-data
     #setprop vold.post_fs_data_done 1
 
 # Include extra init file
-    import /init.ose.rc
+    import /init.zap.rc
 
 on boot
 # basic network init
